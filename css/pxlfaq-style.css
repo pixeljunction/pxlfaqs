@@ -1,3 +1,6 @@
 .type-pxlfaq_faq .entry-content {
 	display: none;
 }
+.accordion-header {
+	cursor: pointer;
+}
