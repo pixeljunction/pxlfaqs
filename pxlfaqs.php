@@ -172,10 +172,10 @@ function pxlfaq_load_templates() {
         $pxlfaq_template_filename = 'archive-pxlfaq_faq.php';
         
         /* check whether a file for this template exists in the theme */
-        if( file_exists( STYLESHEETPATH . '/templates/' . $pxlfaq_template_filename ) ) {
+        if( file_exists( STYLESHEETPATH . '/' . $pxlfaq_template_filename ) ) {
         	
         	/* there is a file in the theme so lets use it */
-            $pxlfaq_return_template = STYLESHEETPATH . '/templates/' . $pxlfaq_template_filename;
+            $pxlfaq_return_template = STYLESHEETPATH . '/' . $pxlfaq_template_filename;
         
         /* no template file exists in the theme */
         } else {
